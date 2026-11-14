@@ -1,4 +1,4 @@
-# AIChE Health: autonomous crew health monitor
+﻿# AIChE Health: autonomous crew health monitor
 
 Native (C++17) health monitoring software for crews on **space stations and spacecraft**, designed to work with **no link to Earth**.
 Built for the NASA Space Apps Challenge. Full user guide (Russian): [docs/AIChE_Health_Guide.pdf](docs/AIChE_Health_Guide.pdf).
@@ -30,14 +30,15 @@ MoCA note: the app records scores only. Administer the test with the official li
 
 ## Build and run
 
-### Windows (Visual Studio 2022+ with CMake)
+### Windows
+Needs Visual Studio 2022+ with the workload "Desktop development with C++" (it includes the compiler and CMake).
+The script finds CMake even if it is not on PATH ("cmake is not recognized"):
 ```powershell
-cmake -S . -B build
-cmake --build build --config Release
-cd build
-.\ui\Release\aiche-health.exe
+powershell -ExecutionPolicy Bypass -File scripts\build_windows.ps1 -Run
 ```
-
+Without `-Run` it only builds; start the app with `cd build; .\ui\Release\aiche-health.exe`.
+If you prefer the commands by hand, run them in "Developer PowerShell for VS" (Start menu), where `cmake` is available:
+`cmake -S . -B build; cmake --build build --config Release`.
 ### Linux (Ubuntu/Debian)
 ```bash
 ./scripts/build_linux.sh
@@ -57,3 +58,4 @@ Or with Docker (headless core smoke test): `docker build -t aiche-health . && do
 
 ## Disclaimer
 Research prototype for a hackathon. Reference values come from the supplied protocol, not a validated clinical standard. Not a medical device.
+
