@@ -1,6 +1,7 @@
 ﻿// aiche-health: native mission-control UI (Dear ImGui + GLFW + OpenGL).
 //   aiche-health [--connect] [--port N] [--profile FILE] [--profiles DIR] [--size WxH] [--shot DIR]
 // Default: starts the offline core inside this process (127.0.0.1:port) and talks to it over HTTP.
+#define GL_SILENCE_DEPRECATION
 #include <GLFW/glfw3.h>
 #include <imgui.h>
 #include <imgui_impl_glfw.h>
@@ -69,6 +70,9 @@ int main(int argc, char** argv) {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_SAMPLES, 4);
+#ifdef __APPLE__
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);  // required for core profiles on macOS
+#endif
     GLFWwindow* win = glfwCreateWindow(W, H, "AIChE Health - Crew Health Monitor", nullptr, nullptr);
     if (!win) { fprintf(stderr, "cannot create window\n"); return 1; }
     glfwMakeContextCurrent(win);
@@ -79,8 +83,17 @@ int main(int argc, char** argv) {
     ImGuiIO& io = ImGui::GetIO();
     io.IniFilename = nullptr;
     ImGui_ImplGlfw_InitForOpenGL(win, true);
+#ifdef __APPLE__
+    ImGui_ImplOpenGL3_Init("#version 150");
+#else
     ImGui_ImplOpenGL3_Init("#version 330");
-    ui::loadFonts(assetDir, 1.0f);
+#endif
+    // Retina / HiDPI: rasterize fonts at framebuffer resolution, then scale back to window units
+    int ww = 1, wh = 1, fbw = 1, fbh = 1;
+    glfwGetWindowSize(win, &ww, &wh); glfwGetFramebufferSize(win, &fbw, &fbh);
+    float fs = (ww > 0 && fbw > ww) ? (float)fbw / ww : 1.0f;
+    ui::loadFonts(assetDir, fs);
+    io.FontGlobalScale = 1.0f / fs;
     ui::applyStyle();
 
     ui::App app;
@@ -134,6 +147,7 @@ int main(int argc, char** argv) {
     if (server) server->stop();
     return 0;
 }
+
 
 
 

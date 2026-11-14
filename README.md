@@ -39,6 +39,12 @@ powershell -ExecutionPolicy Bypass -File scripts\build_windows.ps1 -Run
 Without `-Run` it only builds; start the app with `cd build; .\ui\Release\aiche-health.exe`.
 If you prefer the commands by hand, run them in "Developer PowerShell for VS" (Start menu), where `cmake` is available:
 `cmake -S . -B build; cmake --build build --config Release`.
+### macOS (not yet verified on real hardware)
+```bash
+chmod +x scripts/build_macos.sh && ./scripts/build_macos.sh
+```
+Needs Xcode Command Line Tools and CMake (the script installs CMake via Homebrew if present). Uses the system OpenGL 3.2 core profile (deprecated by Apple but still available).
+
 ### Linux (Ubuntu/Debian)
 ```bash
 ./scripts/build_linux.sh
@@ -58,4 +64,5 @@ Or with Docker (headless core smoke test): `docker build -t aiche-health . && do
 
 ## Disclaimer
 Research prototype for a hackathon. Reference values come from the supplied protocol, not a validated clinical standard. Not a medical device.
+
 
