@@ -1,0 +1,850 @@
+{
+ "female_front": [
+  {
+   "name": "Head",
+   "shapeType": "rect",
+   "coords": {
+    "x": 39,
+    "y": 4,
+    "w": 21,
+    "h": 13
+   }
+  },
+  {
+   "name": "Neck",
+   "shapeType": "rect",
+   "coords": {
+    "x": 42.5,
+    "y": 17,
+    "w": 14.0,
+    "h": 4
+   }
+  },
+  {
+   "name": "Chest",
+   "shapeType": "rect",
+   "coords": {
+    "x": 31,
+    "y": 21,
+    "w": 37,
+    "h": 15
+   }
+  },
+  {
+   "name": "Abdomen",
+   "shapeType": "rect",
+   "coords": {
+    "x": 31,
+    "y": 36,
+    "w": 37,
+    "h": 12
+   }
+  },
+  {
+   "name": "Pelvis",
+   "shapeType": "rect",
+   "coords": {
+    "x": 30,
+    "y": 48,
+    "w": 39,
+    "h": 8
+   }
+  },
+  {
+   "name": "Right Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 22,
+    "y": 21,
+    "w": 9,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 68,
+    "y": 21,
+    "w": 9,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 13,
+    "y": 28,
+    "w": 18,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 8,
+    "y": 39,
+    "w": 20,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 4,
+    "y": 50,
+    "w": 20,
+    "h": 8
+   }
+  },
+  {
+   "name": "Left Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 68,
+    "y": 28,
+    "w": 18,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 71,
+    "y": 39,
+    "w": 20,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 75,
+    "y": 50,
+    "w": 20,
+    "h": 8
+   }
+  },
+  {
+   "name": "Right Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 28,
+    "y": 56,
+    "w": 21.5,
+    "h": 12
+   }
+  },
+  {
+   "name": "Right Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 29,
+    "y": 68,
+    "w": 19.5,
+    "h": 6
+   }
+  },
+  {
+   "name": "Right Shin",
+   "shapeType": "rect",
+   "coords": {
+    "x": 29,
+    "y": 74,
+    "w": 19.5,
+    "h": 13
+   }
+  },
+  {
+   "name": "Right Foot",
+   "shapeType": "rect",
+   "coords": {
+    "x": 28,
+    "y": 87,
+    "w": 21.5,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 49.5,
+    "y": 56,
+    "w": 21.5,
+    "h": 12
+   }
+  },
+  {
+   "name": "Left Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 50.5,
+    "y": 68,
+    "w": 19.5,
+    "h": 6
+   }
+  },
+  {
+   "name": "Left Shin",
+   "shapeType": "rect",
+   "coords": {
+    "x": 50.5,
+    "y": 74,
+    "w": 19.5,
+    "h": 13
+   }
+  },
+  {
+   "name": "Left Foot",
+   "shapeType": "rect",
+   "coords": {
+    "x": 49.5,
+    "y": 87,
+    "w": 21.5,
+    "h": 7
+   }
+  }
+ ],
+ "female_back": [
+  {
+   "name": "Head",
+   "shapeType": "rect",
+   "coords": {
+    "x": 46,
+    "y": 4,
+    "w": 19,
+    "h": 13
+   }
+  },
+  {
+   "name": "Neck",
+   "shapeType": "rect",
+   "coords": {
+    "x": 48.5,
+    "y": 17,
+    "w": 14.0,
+    "h": 4
+   }
+  },
+  {
+   "name": "Upper Back",
+   "shapeType": "rect",
+   "coords": {
+    "x": 36,
+    "y": 21,
+    "w": 40,
+    "h": 17
+   }
+  },
+  {
+   "name": "Lower Back",
+   "shapeType": "rect",
+   "coords": {
+    "x": 36,
+    "y": 38,
+    "w": 40,
+    "h": 11
+   }
+  },
+  {
+   "name": "Buttocks",
+   "shapeType": "rect",
+   "coords": {
+    "x": 35,
+    "y": 49,
+    "w": 42,
+    "h": 9
+   }
+  },
+  {
+   "name": "Left Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 26,
+    "y": 21,
+    "w": 10,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 76,
+    "y": 21,
+    "w": 9,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 19,
+    "y": 28,
+    "w": 17,
+    "h": 12
+   }
+  },
+  {
+   "name": "Left Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 14,
+    "y": 40,
+    "w": 18,
+    "h": 12
+   }
+  },
+  {
+   "name": "Left Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 10,
+    "y": 52,
+    "w": 18,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 76,
+    "y": 28,
+    "w": 15,
+    "h": 12
+   }
+  },
+  {
+   "name": "Right Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 79,
+    "y": 40,
+    "w": 15,
+    "h": 12
+   }
+  },
+  {
+   "name": "Right Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 82,
+    "y": 52,
+    "w": 15,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 34,
+    "y": 58,
+    "w": 21.5,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 35,
+    "y": 69,
+    "w": 19.5,
+    "h": 6
+   }
+  },
+  {
+   "name": "Left Calf",
+   "shapeType": "rect",
+   "coords": {
+    "x": 35,
+    "y": 75,
+    "w": 19.5,
+    "h": 13
+   }
+  },
+  {
+   "name": "Left Heel",
+   "shapeType": "rect",
+   "coords": {
+    "x": 34,
+    "y": 88,
+    "w": 21.5,
+    "h": 6
+   }
+  },
+  {
+   "name": "Right Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 55.5,
+    "y": 58,
+    "w": 21.5,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 56.5,
+    "y": 69,
+    "w": 19.5,
+    "h": 6
+   }
+  },
+  {
+   "name": "Right Calf",
+   "shapeType": "rect",
+   "coords": {
+    "x": 56.5,
+    "y": 75,
+    "w": 19.5,
+    "h": 13
+   }
+  },
+  {
+   "name": "Right Heel",
+   "shapeType": "rect",
+   "coords": {
+    "x": 55.5,
+    "y": 88,
+    "w": 21.5,
+    "h": 6
+   }
+  }
+ ],
+ "male_front": [
+  {
+   "name": "Head",
+   "shapeType": "rect",
+   "coords": {
+    "x": 41,
+    "y": 10,
+    "w": 20,
+    "h": 12
+   }
+  },
+  {
+   "name": "Neck",
+   "shapeType": "rect",
+   "coords": {
+    "x": 44,
+    "y": 22,
+    "w": 14,
+    "h": 5
+   }
+  },
+  {
+   "name": "Chest",
+   "shapeType": "rect",
+   "coords": {
+    "x": 35,
+    "y": 27,
+    "w": 32,
+    "h": 14
+   }
+  },
+  {
+   "name": "Abdomen",
+   "shapeType": "rect",
+   "coords": {
+    "x": 35,
+    "y": 41,
+    "w": 32,
+    "h": 12
+   }
+  },
+  {
+   "name": "Pelvis",
+   "shapeType": "rect",
+   "coords": {
+    "x": 34,
+    "y": 53,
+    "w": 34,
+    "h": 8
+   }
+  },
+  {
+   "name": "Right Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 25,
+    "y": 27,
+    "w": 10,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 67,
+    "y": 27,
+    "w": 10,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 20,
+    "y": 34,
+    "w": 15,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 15,
+    "y": 45,
+    "w": 17,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 10,
+    "y": 56,
+    "w": 18,
+    "h": 8
+   }
+  },
+  {
+   "name": "Left Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 67,
+    "y": 34,
+    "w": 15,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 70,
+    "y": 45,
+    "w": 17,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 74,
+    "y": 56,
+    "w": 18,
+    "h": 8
+   }
+  },
+  {
+   "name": "Right Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 32,
+    "y": 61,
+    "w": 19,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 33,
+    "y": 72,
+    "w": 17,
+    "h": 6
+   }
+  },
+  {
+   "name": "Right Shin",
+   "shapeType": "rect",
+   "coords": {
+    "x": 33,
+    "y": 78,
+    "w": 17,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Foot",
+   "shapeType": "rect",
+   "coords": {
+    "x": 32,
+    "y": 89,
+    "w": 19,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 51,
+    "y": 61,
+    "w": 19,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 52,
+    "y": 72,
+    "w": 17,
+    "h": 6
+   }
+  },
+  {
+   "name": "Left Shin",
+   "shapeType": "rect",
+   "coords": {
+    "x": 52,
+    "y": 78,
+    "w": 17,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Foot",
+   "shapeType": "rect",
+   "coords": {
+    "x": 51,
+    "y": 89,
+    "w": 19,
+    "h": 7
+   }
+  }
+ ],
+ "male_back": [
+  {
+   "name": "Head",
+   "shapeType": "rect",
+   "coords": {
+    "x": 38,
+    "y": 11,
+    "w": 26,
+    "h": 12
+   }
+  },
+  {
+   "name": "Neck",
+   "shapeType": "rect",
+   "coords": {
+    "x": 44,
+    "y": 23,
+    "w": 14,
+    "h": 5
+   }
+  },
+  {
+   "name": "Upper Back",
+   "shapeType": "rect",
+   "coords": {
+    "x": 30,
+    "y": 28,
+    "w": 43,
+    "h": 15
+   }
+  },
+  {
+   "name": "Lower Back",
+   "shapeType": "rect",
+   "coords": {
+    "x": 30,
+    "y": 43,
+    "w": 43,
+    "h": 11
+   }
+  },
+  {
+   "name": "Buttocks",
+   "shapeType": "rect",
+   "coords": {
+    "x": 29,
+    "y": 54,
+    "w": 45,
+    "h": 9
+   }
+  },
+  {
+   "name": "Left Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 18,
+    "y": 28,
+    "w": 12,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Shoulder",
+   "shapeType": "rect",
+   "coords": {
+    "x": 73,
+    "y": 28,
+    "w": 11,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 11,
+    "y": 35,
+    "w": 19,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 6,
+    "y": 46,
+    "w": 20,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 2,
+    "y": 57,
+    "w": 20,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Upper Arm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 73,
+    "y": 35,
+    "w": 18,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Forearm",
+   "shapeType": "rect",
+   "coords": {
+    "x": 77,
+    "y": 46,
+    "w": 18,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Hand",
+   "shapeType": "rect",
+   "coords": {
+    "x": 80,
+    "y": 57,
+    "w": 19,
+    "h": 7
+   }
+  },
+  {
+   "name": "Left Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 27,
+    "y": 63,
+    "w": 24,
+    "h": 12
+   }
+  },
+  {
+   "name": "Left Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 28,
+    "y": 75,
+    "w": 22,
+    "h": 6
+   }
+  },
+  {
+   "name": "Left Calf",
+   "shapeType": "rect",
+   "coords": {
+    "x": 28,
+    "y": 81,
+    "w": 22,
+    "h": 11
+   }
+  },
+  {
+   "name": "Left Heel",
+   "shapeType": "rect",
+   "coords": {
+    "x": 27,
+    "y": 92,
+    "w": 24,
+    "h": 7
+   }
+  },
+  {
+   "name": "Right Thigh",
+   "shapeType": "rect",
+   "coords": {
+    "x": 51,
+    "y": 63,
+    "w": 24,
+    "h": 12
+   }
+  },
+  {
+   "name": "Right Knee",
+   "shapeType": "rect",
+   "coords": {
+    "x": 52,
+    "y": 75,
+    "w": 22,
+    "h": 6
+   }
+  },
+  {
+   "name": "Right Calf",
+   "shapeType": "rect",
+   "coords": {
+    "x": 52,
+    "y": 81,
+    "w": 22,
+    "h": 11
+   }
+  },
+  {
+   "name": "Right Heel",
+   "shapeType": "rect",
+   "coords": {
+    "x": 51,
+    "y": 92,
+    "w": 24,
+    "h": 7
+   }
+  }
+ ]
+}

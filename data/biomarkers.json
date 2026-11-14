@@ -1,0 +1,6320 @@
+[
+ {
+  "id": "internal_jugular_vein_ultrasound_ijv_cro",
+  "group": "Internal Jugular Vein Ultrasound",
+  "name": "IJV Cross-Sectional Area",
+  "unit": "cm²",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q / Butterfly iQ+ Ultrasound",
+  "avail": "onboard",
+  "avail_text": "Historically Overlooked (Now Onboard)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "0.4 – 1.0 cm²",
+   "space": "1.5 – 2.5 cm²",
+   "concern": "2.6 – 3.5 cm²",
+   "danger": "> 3.5 cm² (or occlusive thrombus)"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.4,
+      1.0
+     ]
+    ],
+    "F": [
+     [
+      0.4,
+      1.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.5,
+      2.5
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      2.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      2.6,
+      3.5
+     ]
+    ],
+    "F": [
+     [
+      2.6,
+      3.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   4.275
+  ],
+  "space_mid": 2.0
+ },
+ {
+  "id": "internal_jugular_vein_ultrasound_peak_ve",
+  "group": "Internal Jugular Vein Ultrasound",
+  "name": "Peak Venous Doppler Velocity",
+  "unit": "cm/s",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q / Butterfly iQ+ Ultrasound",
+  "avail": "onboard",
+  "avail_text": "Historically Overlooked (Now Onboard)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "15 – 35 cm/s",
+   "space": "5 – 15 cm/s",
+   "concern": "0 – 4.9 cm/s (stagnant)",
+   "danger": "< 0 cm/s (retrograde/reversed flow)"
+  },
+  "note_danger": "retrograde/reversed flow",
+  "note_concern": "stagnant",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      15.0,
+      35.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      35.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      5.0,
+      15.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      15.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      0.0,
+      4.9
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      4.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      0.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      0.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0,
+   43.75
+  ],
+  "space_mid": 10.0
+ },
+ {
+  "id": "24_hour_holter_ecg_corrected_qt_interval",
+  "group": "24-Hour Holter ECG",
+  "name": "Corrected QT Interval, QTc",
+  "unit": "ms",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Digital Holter ECG Recorder",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Pre/Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "350 – 440 ms",
+   "space": "400 – 460 ms",
+   "concern": "461 – 499 ms",
+   "danger": ">= 500 ms (Torsades/VT risk)"
+  },
+  "note_danger": "Torsades/VT risk",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      350.0,
+      440.0
+     ]
+    ],
+    "F": [
+     [
+      350.0,
+      440.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      400.0,
+      460.0
+     ]
+    ],
+    "F": [
+     [
+      400.0,
+      460.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      461.0,
+      499.0
+     ]
+    ],
+    "F": [
+     [
+      461.0,
+      499.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      500.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      500.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   300.0,
+   550.0
+  ],
+  "space_mid": 430.0
+ },
+ {
+  "id": "24_hour_holter_ecg_premature_ventricular",
+  "group": "24-Hour Holter ECG",
+  "name": "Premature Ventricular Contractions",
+  "unit": "PVCs / 24h",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Digital Holter ECG Recorder",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Pre/Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "0 – 50 PVCs / 24h",
+   "space": "50 – 200 PVCs / 24h",
+   "concern": "201 – 1,000 PVCs / 24h",
+   "danger": "> 1,000 PVCs / 24h (or ≥3-beat VT run)"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      50.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      50.0,
+      200.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      200.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      201.0,
+      1000.0
+     ]
+    ],
+    "F": [
+     [
+      201.0,
+      1000.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1000.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1000.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   1250.0
+  ],
+  "space_mid": 125.0
+ },
+ {
+  "id": "24_hour_holter_ecg_heart_rate_variabilit",
+  "group": "24-Hour Holter ECG",
+  "name": "Heart Rate Variability SDNN",
+  "unit": "ms",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Digital Holter ECG Recorder",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Pre/Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "100 – 180 ms",
+   "space": "80 – 130 ms",
+   "concern": "50 – 79 ms",
+   "danger": "< 50 ms (severe autonomic dysfunction)"
+  },
+  "note_danger": "severe autonomic dysfunction",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      100.0,
+      180.0
+     ]
+    ],
+    "F": [
+     [
+      100.0,
+      180.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      80.0,
+      130.0
+     ]
+    ],
+    "F": [
+     [
+      80.0,
+      130.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      50.0,
+      79.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      79.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      50.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   17.5,
+   212.5
+  ],
+  "space_mid": 105.0
+ },
+ {
+  "id": "point_of_care_hematology_blood_hemoglobi",
+  "group": "Point-of-Care Hematology",
+  "name": "Blood Hemoglobin, Hb",
+  "unit": "g/dL",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Abbott i-STAT / HemoCue",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "13.5 – 17.5 g/dL (M) / 12.0 – 16.0 g/dL (F)",
+   "space": "12.0 – 15.5 g/dL (M) / 11.0 – 14.5 g/dL (F)",
+   "concern": "10.0 – 11.9 g/dL",
+   "danger": "< 10.0 g/dL (severe space anemia)"
+  },
+  "note_danger": "severe space anemia",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      13.5,
+      17.5
+     ]
+    ],
+    "F": [
+     [
+      12.0,
+      16.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      12.0,
+      15.5
+     ]
+    ],
+    "F": [
+     [
+      11.0,
+      14.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      10.0,
+      11.9
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      11.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   8.125,
+   19.375
+  ],
+  "space_mid": 13.75
+ },
+ {
+  "id": "point_of_care_hematology_hematocrit_hct",
+  "group": "Point-of-Care Hematology",
+  "name": "Hematocrit, Hct",
+  "unit": "%",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Abbott i-STAT",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "40% – 50% (M) / 36% – 44% (F)",
+   "space": "36% – 45% (M) / 33% – 41% (F)",
+   "concern": "30% – 35%",
+   "danger": "< 30%"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      40.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      36.0,
+      44.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      36.0,
+      45.0
+     ]
+    ],
+    "F": [
+     [
+      33.0,
+      41.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      30.0,
+      35.0
+     ]
+    ],
+    "F": [
+     [
+      30.0,
+      35.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      30.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      30.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   25.0,
+   55.0
+  ],
+  "space_mid": 40.5
+ },
+ {
+  "id": "hemolysis_assay_exhaled_endogenous_carbo",
+  "group": "Hemolysis Assay",
+  "name": "Exhaled Endogenous Carbon Monoxide, CO",
+  "unit": "ppm",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Breath CO Analyzer",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "1.0 – 2.0 ppm",
+   "space": "2.5 – 3.5 ppm (+54% RBC lysis)",
+   "concern": "3.6 – 5.0 ppm",
+   "danger": "> 5.0 ppm (acute hemolytic crisis)"
+  },
+  "note_danger": "acute hemolytic crisis",
+  "note_concern": "",
+  "note_space": "+54% RBC lysis",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.0,
+      2.0
+     ]
+    ],
+    "F": [
+     [
+      1.0,
+      2.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      2.5,
+      3.5
+     ]
+    ],
+    "F": [
+     [
+      2.5,
+      3.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      3.6,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      3.6,
+      5.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      5.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.0,
+   6.0
+  ],
+  "space_mid": 3.0
+ },
+ {
+  "id": "hemolysis_assay_serum_haptoglobin",
+  "group": "Hemolysis Assay",
+  "name": "Serum Haptoglobin",
+  "unit": "mg/dL",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Frozen Venous Plasma / rHEALTH",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Pre/Post-Flight",
+  "abs": false,
+  "text": {
+   "earth": "40 – 200 mg/dL",
+   "space": "25 – 60 mg/dL",
+   "concern": "10 – 24 mg/dL",
+   "danger": "< 10 mg/dL (intravascular hemolysis)"
+  },
+  "note_danger": "intravascular hemolysis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      40.0,
+      200.0
+     ]
+    ],
+    "F": [
+     [
+      40.0,
+      200.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      25.0,
+      60.0
+     ]
+    ],
+    "F": [
+     [
+      25.0,
+      60.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      10.0,
+      24.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      24.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0,
+   247.5
+  ],
+  "space_mid": 42.5
+ },
+ {
+  "id": "arterial_stiffness_carotid_femoral_pulse",
+  "group": "Arterial Stiffness",
+  "name": "Carotid-Femoral Pulse Wave Velocity, PWV",
+  "unit": "m/s",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Arterial Tonometry / Ultrasound",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Every 2–3 months",
+  "abs": false,
+  "text": {
+   "earth": "6.0 – 8.5 m/s",
+   "space": "8.5 – 9.8 m/s",
+   "concern": "9.9 – 11.9 m/s",
+   "danger": ">= 12.0 m/s"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      6.0,
+      8.5
+     ]
+    ],
+    "F": [
+     [
+      6.0,
+      8.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      8.5,
+      9.8
+     ]
+    ],
+    "F": [
+     [
+      8.5,
+      9.8
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      9.9,
+      11.9
+     ]
+    ],
+    "F": [
+     [
+      9.9,
+      11.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      12.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      12.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   4.5,
+   13.5
+  ],
+  "space_mid": 9.15
+ },
+ {
+  "id": "arterial_stiffness_carotid_intima_media_",
+  "group": "Arterial Stiffness",
+  "name": "Carotid Intima-Media Thickness, IMT",
+  "unit": "mm",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q Vascular Ultrasound",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Every 2–3 months",
+  "abs": false,
+  "text": {
+   "earth": "0.50 – 0.70 mm",
+   "space": "0.70 – 0.85 mm",
+   "concern": "0.86 – 1.09 mm",
+   "danger": ">= 1.10 mm (atherosclerotic plaque)"
+  },
+  "note_danger": "atherosclerotic plaque",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.5,
+      0.7
+     ]
+    ],
+    "F": [
+     [
+      0.5,
+      0.7
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.7,
+      0.85
+     ]
+    ],
+    "F": [
+     [
+      0.7,
+      0.85
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      0.86,
+      1.09
+     ]
+    ],
+    "F": [
+     [
+      0.86,
+      1.09
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1.1,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1.1,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.35,
+   1.25
+  ],
+  "space_mid": 0.7749999999999999
+ },
+ {
+  "id": "echocardiography_left_ventricular_ejecti",
+  "group": "Echocardiography",
+  "name": "Left Ventricular Ejection Fraction, LVEF",
+  "unit": "%",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q / Butterfly iQ+ Cardiac",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Every 30–60 days",
+  "abs": false,
+  "text": {
+   "earth": "55% – 70%",
+   "space": "52% – 65%",
+   "concern": "45% – 51%",
+   "danger": "< 45% (systolic heart failure)"
+  },
+  "note_danger": "systolic heart failure",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      55.0,
+      70.0
+     ]
+    ],
+    "F": [
+     [
+      55.0,
+      70.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      52.0,
+      65.0
+     ]
+    ],
+    "F": [
+     [
+      52.0,
+      65.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      45.0,
+      51.0
+     ]
+    ],
+    "F": [
+     [
+      45.0,
+      51.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      45.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      45.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   38.0,
+   77.0
+  ],
+  "space_mid": 58.5
+ },
+ {
+  "id": "echocardiography_left_atrial_volume_inde",
+  "group": "Echocardiography",
+  "name": "Left Atrial Volume Index, LAVI",
+  "unit": "mL/m²",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q / Butterfly iQ+ Cardiac",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Every 30–60 days",
+  "abs": false,
+  "text": {
+   "earth": "16 – 34 mL/m²",
+   "space": "34 – 40 mL/m²",
+   "concern": "41 – 48 mL/m²",
+   "danger": "> 48 mL/m² (atrial fibrillation risk)"
+  },
+  "note_danger": "atrial fibrillation risk",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      16.0,
+      34.0
+     ]
+    ],
+    "F": [
+     [
+      16.0,
+      34.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      34.0,
+      40.0
+     ]
+    ],
+    "F": [
+     [
+      34.0,
+      40.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      41.0,
+      48.0
+     ]
+    ],
+    "F": [
+     [
+      41.0,
+      48.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      48.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      48.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   8.0,
+   56.0
+  ],
+  "space_mid": 37.0
+ },
+ {
+  "id": "echocardiography_left_ventricular_myocar",
+  "group": "Echocardiography",
+  "name": "Left Ventricular Myocardial Mass Change",
+  "unit": "%",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Vivid q / Butterfly iQ+ Cardiac",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Every 30–60 days",
+  "abs": false,
+  "text": {
+   "earth": "0% (Baseline 100%)",
+   "space": "-3% to -8%",
+   "concern": "-9% to -14%",
+   "danger": "<= -15% (severe cardiac atrophy)"
+  },
+  "note_danger": "severe cardiac atrophy",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      -8.0,
+      -3.0
+     ]
+    ],
+    "F": [
+     [
+      -8.0,
+      -3.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      -14.0,
+      -9.0
+     ]
+    ],
+    "F": [
+     [
+      -14.0,
+      -9.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      -15.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      -15.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   -18.75,
+   3.75
+  ],
+  "space_mid": -5.5
+ },
+ {
+  "id": "spirometry_forced_expiratory_volume_in_1",
+  "group": "Spirometry",
+  "name": "Forced Expiratory Volume in 1s, FEV1",
+  "unit": "% Predicted",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Portable Ultrasonic Spirometer",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Pre/Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "80% – 120% predicted",
+   "space": "75% – 110% predicted",
+   "concern": "65% – 74% predicted",
+   "danger": "< 65% predicted (airway obstruction)"
+  },
+  "note_danger": "airway obstruction",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      80.0,
+      120.0
+     ]
+    ],
+    "F": [
+     [
+      80.0,
+      120.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      75.0,
+      110.0
+     ]
+    ],
+    "F": [
+     [
+      75.0,
+      110.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      65.0,
+      74.0
+     ]
+    ],
+    "F": [
+     [
+      65.0,
+      74.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      65.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      65.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   51.25,
+   133.75
+  ],
+  "space_mid": 92.5
+ },
+ {
+  "id": "airway_inflammation_fractional_exhaled_n",
+  "group": "Airway Inflammation",
+  "name": "Fractional Exhaled Nitric Oxide, FeNO",
+  "unit": "ppb",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "NIOX VERO FeNO Analyzer",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly & Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "5 – 25 ppb",
+   "space": "15 – 30 ppb",
+   "concern": "31 – 50 ppb",
+   "danger": "> 50 ppb (acute dust pneumonitis)"
+  },
+  "note_danger": "acute dust pneumonitis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      5.0,
+      25.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      25.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      15.0,
+      30.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      30.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      31.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      31.0,
+      50.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      50.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   61.25
+  ],
+  "space_mid": 22.5
+ },
+ {
+  "id": "lbnp_orthostatic_challenge_systolic_bloo",
+  "group": "LBNP Orthostatic Challenge",
+  "name": "Systolic Blood Pressure Drop",
+  "unit": "mmHg drop",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Chibis LBNP Suit + Finapres",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Final 2–4 weeks pre-landing",
+  "abs": false,
+  "text": {
+   "earth": "-5 to -10 mmHg",
+   "space": "-10 to -15 mmHg",
+   "concern": "-16 to -25 mmHg",
+   "danger": "> 25 mmHg drop (or SBP < 80 mmHg)"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      5,
+      10
+     ]
+    ],
+    "F": [
+     [
+      5,
+      10
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10,
+      15
+     ]
+    ],
+    "F": [
+     [
+      10,
+      15
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      16,
+      25
+     ]
+    ],
+    "F": [
+     [
+      16,
+      25
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      25.0001,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      25.0001,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   30.000125
+  ],
+  "space_mid": 12.5
+ },
+ {
+  "id": "coagulation_profile_plasma_d_dimer",
+  "group": "Coagulation Profile",
+  "name": "Plasma D-Dimer",
+  "unit": "ng/mL FEU",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "rHEALTH / Point-of-Care Cartridge",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Pre/Post-Flight (Rare Live)",
+  "abs": false,
+  "text": {
+   "earth": "< 250 ng/mL",
+   "space": "250 – 450 ng/mL",
+   "concern": "451 – 800 ng/mL",
+   "danger": "> 800 ng/mL (active venous thrombosis)"
+  },
+  "note_danger": "active venous thrombosis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      -1000000000.0,
+      250.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      250.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      250.0,
+      450.0
+     ]
+    ],
+    "F": [
+     [
+      250.0,
+      450.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      451.0,
+      800.0
+     ]
+    ],
+    "F": [
+     [
+      451.0,
+      800.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      800.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      800.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   112.5,
+   937.5
+  ],
+  "space_mid": 350.0
+ },
+ {
+  "id": "coagulation_profile_prothrombin_time_inr",
+  "group": "Coagulation Profile",
+  "name": "Prothrombin Time / INR",
+  "unit": "",
+  "cluster": 1,
+  "cluster_name": "Cardiorespiratory & Hematological System",
+  "apparatus": "Abbott i-STAT PT/INR Cartridge",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Symptom-Triggered",
+  "abs": false,
+  "text": {
+   "earth": "0.9 – 1.1 INR",
+   "space": "0.9 – 1.2 INR",
+   "concern": "1.3 – 2.9 INR (if unmedicated)",
+   "danger": ">= 3.0 INR (hemorrhage risk)"
+  },
+  "note_danger": "hemorrhage risk",
+  "note_concern": "if unmedicated",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.9,
+      1.1
+     ]
+    ],
+    "F": [
+     [
+      0.9,
+      1.1
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.9,
+      1.2
+     ]
+    ],
+    "F": [
+     [
+      0.9,
+      1.2
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.3,
+      2.9
+     ]
+    ],
+    "F": [
+     [
+      1.3,
+      2.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      3.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      3.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.375,
+   3.525
+  ],
+  "space_mid": 1.05
+ },
+ {
+  "id": "bone_resorption_assay_urinary_n_telopept",
+  "group": "Bone Resorption Assay",
+  "name": "Urinary N-Telopeptide, NTX",
+  "unit": "nmol BCE/mmol Cr",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "MELFI -80°C / rHEALTH Microfluidics",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "20 – 65 nmol BCE/mmol Cr",
+   "space": "66 – 110 nmol BCE/mmol Cr",
+   "concern": "111 – 160 nmol BCE/mmol Cr",
+   "danger": "> 160 nmol BCE/mmol Cr"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      20.0,
+      65.0
+     ]
+    ],
+    "F": [
+     [
+      20.0,
+      65.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      66.0,
+      110.0
+     ]
+    ],
+    "F": [
+     [
+      66.0,
+      110.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      111.0,
+      160.0
+     ]
+    ],
+    "F": [
+     [
+      111.0,
+      160.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      160.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      160.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   195.0
+  ],
+  "space_mid": 88.0
+ },
+ {
+  "id": "bone_resorption_assay_serum_c_telopeptid",
+  "group": "Bone Resorption Assay",
+  "name": "Serum C-Telopeptide, CTX",
+  "unit": "pg/mL",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "MELFI -80°C / rHEALTH Microfluidics",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "100 – 550 pg/mL",
+   "space": "551 – 800 pg/mL",
+   "concern": "801 – 1,100 pg/mL",
+   "danger": "> 1,100 pg/mL (rapid trabecular loss)"
+  },
+  "note_danger": "rapid trabecular loss",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      100.0,
+      550.0
+     ]
+    ],
+    "F": [
+     [
+      100.0,
+      550.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      551.0,
+      800.0
+     ]
+    ],
+    "F": [
+     [
+      551.0,
+      800.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      801.0,
+      1100.0
+     ]
+    ],
+    "F": [
+     [
+      801.0,
+      1100.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1100.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1100.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   1350.0
+  ],
+  "space_mid": 675.5
+ },
+ {
+  "id": "muscle_ultrasound_calf_quad_cross_sectio",
+  "group": "Muscle Ultrasound",
+  "name": "Calf & Quad Cross-Sectional Area",
+  "unit": "% of Baseline",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Vivid q / Butterfly iQ+ Linear Probe",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "98% – 102% of baseline",
+   "space": "92% – 97% (-3% to -8%)",
+   "concern": "85% – 91% (-9% to -15%)",
+   "danger": "< 85% (> 15% muscle volume loss)"
+  },
+  "note_danger": "> 15% muscle volume loss",
+  "note_concern": "-9% to -15%",
+  "note_space": "-3% to -8%",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      98.0,
+      102.0
+     ]
+    ],
+    "F": [
+     [
+      98.0,
+      102.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      92.0,
+      97.0
+     ]
+    ],
+    "F": [
+     [
+      92.0,
+      97.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      85.0,
+      91.0
+     ]
+    ],
+    "F": [
+     [
+      85.0,
+      91.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      85.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      85.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   74.8,
+   112.2
+  ],
+  "space_mid": 94.5
+ },
+ {
+  "id": "ared_dynamometry_peak_isometric_lower_li",
+  "group": "ARED Dynamometry",
+  "name": "Peak Isometric Lower-Limb & Trunk Force",
+  "unit": "% Baseline",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "ARED Force Plates & Dynamometer",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Daily (ARED) / Monthly",
+  "abs": false,
+  "text": {
+   "earth": "95% – 105% of baseline",
+   "space": "88% – 94% (-6% to -12%)",
+   "concern": "78% – 87% (-13% to -22%)",
+   "danger": "< 78% (> 22% strength loss)"
+  },
+  "note_danger": "> 22% strength loss",
+  "note_concern": "-13% to -22%",
+  "note_space": "-6% to -12%",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      95.0,
+      105.0
+     ]
+    ],
+    "F": [
+     [
+      95.0,
+      105.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      88.0,
+      94.0
+     ]
+    ],
+    "F": [
+     [
+      88.0,
+      94.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      78.0,
+      87.0
+     ]
+    ],
+    "F": [
+     [
+      78.0,
+      87.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      78.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      78.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   67.5,
+   115.5
+  ],
+  "space_mid": 91.0
+ },
+ {
+  "id": "calcium_kinetics_blood_ionized_calcium_i",
+  "group": "Calcium Kinetics",
+  "name": "Blood Ionized Calcium, iCa2+",
+  "unit": "mmol/L",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Abbott i-STAT CG8+ Cartridge",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "1.15 – 1.30 mmol/L",
+   "space": "1.22 – 1.34 mmol/L",
+   "concern": "1.35 – 1.45 mmol/L",
+   "danger": "> 1.45 mmol/L (hypercalcemic crisis)"
+  },
+  "note_danger": "hypercalcemic crisis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.15,
+      1.3
+     ]
+    ],
+    "F": [
+     [
+      1.15,
+      1.3
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.22,
+      1.34
+     ]
+    ],
+    "F": [
+     [
+      1.22,
+      1.34
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.35,
+      1.45
+     ]
+    ],
+    "F": [
+     [
+      1.35,
+      1.45
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1.45,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1.45,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   1.005,
+   1.595
+  ],
+  "space_mid": 1.28
+ },
+ {
+  "id": "calcium_kinetics_intact_parathyroid_horm",
+  "group": "Calcium Kinetics",
+  "name": "Intact Parathyroid Hormone, PTH",
+  "unit": "pg/mL",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "rHEALTH / Frozen Serum",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "15 – 65 pg/mL",
+   "space": "10 – 35 pg/mL (suppressed)",
+   "concern": "5 – 9.9 pg/mL",
+   "danger": "< 5 pg/mL (severe bone Ca efflux)"
+  },
+  "note_danger": "severe bone Ca efflux",
+  "note_concern": "",
+  "note_space": "suppressed",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      15.0,
+      65.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      65.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10.0,
+      35.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      35.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      5.0,
+      9.9
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      9.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0,
+   80.0
+  ],
+  "space_mid": 22.5
+ },
+ {
+  "id": "bone_formation_bone_specific_alkaline_ph",
+  "group": "Bone Formation",
+  "name": "Bone-Specific Alkaline Phosphatase, BSAP",
+  "unit": "µg/L",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "rHEALTH / Frozen Serum",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "8.0 – 22.0 µg/L",
+   "space": "10.0 – 26.0 µg/L",
+   "concern": "< 7.0 or > 35.0 µg/L",
+   "danger": "< 5.0 µg/L (osteoblast arrest)"
+  },
+  "note_danger": "osteoblast arrest",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      8.0,
+      22.0
+     ]
+    ],
+    "F": [
+     [
+      8.0,
+      22.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10.0,
+      26.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      26.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      -1000000000.0,
+      7.0
+     ],
+     [
+      35.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      7.0
+     ],
+     [
+      35.0,
+      1000000000.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "both",
+  "span": [
+   0,
+   42.5
+  ],
+  "space_mid": 18.0
+ },
+ {
+  "id": "spinal_ultrasound_lumbar_multifidus_musc",
+  "group": "Spinal Ultrasound",
+  "name": "Lumbar Multifidus Muscle Area",
+  "unit": "% of Baseline",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Vivid q Linear Ultrasound",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Sporadic / Research",
+  "abs": false,
+  "text": {
+   "earth": "98% – 102% of baseline",
+   "space": "90% – 97% of baseline",
+   "concern": "80% – 89% of baseline",
+   "danger": "< 80% (4x disc herniation risk)"
+  },
+  "note_danger": "4x disc herniation risk",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      98.0,
+      102.0
+     ]
+    ],
+    "F": [
+     [
+      98.0,
+      102.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      90.0,
+      97.0
+     ]
+    ],
+    "F": [
+     [
+      90.0,
+      97.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      80.0,
+      89.0
+     ]
+    ],
+    "F": [
+     [
+      80.0,
+      89.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      80.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      80.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   69.8,
+   112.2
+  ],
+  "space_mid": 93.5
+ },
+ {
+  "id": "spinal_ultrasound_lumbar_intervertebral_",
+  "group": "Spinal Ultrasound",
+  "name": "Lumbar Intervertebral Disc Height Change",
+  "unit": "%",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Vivid q Linear Ultrasound",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Sporadic / Research",
+  "abs": false,
+  "text": {
+   "earth": "0% (8 – 11 mm)",
+   "space": "+5% to +15% swelling",
+   "concern": "+16% to +25% swelling",
+   "danger": "> +25% hyper-hydration (annular tear)"
+  },
+  "note_danger": "annular tear",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      5.0,
+      15.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      15.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      16.0,
+      25.0
+     ]
+    ],
+    "F": [
+     [
+      16.0,
+      25.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      25.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      25.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   31.25
+  ],
+  "space_mid": 10.0
+ },
+ {
+  "id": "surface_emg_median_frequency_fatigue_slo",
+  "group": "Surface EMG",
+  "name": "Median Frequency Fatigue Slope",
+  "unit": "%/second",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Wearable Dry-Electrode sEMG",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "-0.1% to -0.5% / sec",
+   "space": "-0.5% to -1.0% / sec",
+   "concern": "-1.1% to -2.0% / sec",
+   "danger": "< -2.0% / sec (rapid motor exhaustion)"
+  },
+  "note_danger": "rapid motor exhaustion",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      -0.5,
+      -0.1
+     ]
+    ],
+    "F": [
+     [
+      -0.5,
+      -0.1
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      -1.0,
+      -0.5
+     ]
+    ],
+    "F": [
+     [
+      -1.0,
+      -0.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      -2.0,
+      -1.1
+     ]
+    ],
+    "F": [
+     [
+      -2.0,
+      -1.1
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      -2.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      -2.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   -2.475,
+   0.375
+  ],
+  "space_mid": -0.75
+ },
+ {
+  "id": "tendon_elastography_achilles_patellar_yo",
+  "group": "Tendon Elastography",
+  "name": "Achilles/Patellar Young's Modulus",
+  "unit": "kPa",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Shear-Wave Ultrasound",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Sporadic / Research",
+  "abs": false,
+  "text": {
+   "earth": "250 – 350 kPa",
+   "space": "210 – 249 kPa",
+   "concern": "160 – 209 kPa",
+   "danger": "< 160 kPa (tendon rupture hazard)"
+  },
+  "note_danger": "tendon rupture hazard",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      250.0,
+      350.0
+     ]
+    ],
+    "F": [
+     [
+      250.0,
+      350.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      210.0,
+      249.0
+     ]
+    ],
+    "F": [
+     [
+      210.0,
+      249.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      160.0,
+      209.0
+     ]
+    ],
+    "F": [
+     [
+      160.0,
+      209.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      160.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      160.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   112.5,
+   397.5
+  ],
+  "space_mid": 229.5
+ },
+ {
+  "id": "muscle_damage_panel_serum_creatine_kinas",
+  "group": "Muscle Damage Panel",
+  "name": "Serum Creatine Kinase, CK-MM",
+  "unit": "U/L",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "Abaxis Piccolo Xpress",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Post-EVA",
+  "abs": false,
+  "text": {
+   "earth": "40 – 200 U/L",
+   "space": "100 – 350 U/L (post-ARED)",
+   "concern": "351 – 1,000 U/L",
+   "danger": "> 1,000 U/L (acute rhabdomyolysis)"
+  },
+  "note_danger": "acute rhabdomyolysis",
+  "note_concern": "",
+  "note_space": "post-ARED",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      40.0,
+      200.0
+     ]
+    ],
+    "F": [
+     [
+      40.0,
+      200.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      100.0,
+      350.0
+     ]
+    ],
+    "F": [
+     [
+      100.0,
+      350.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      351.0,
+      1000.0
+     ]
+    ],
+    "F": [
+     [
+      351.0,
+      1000.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1000.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1000.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   1240.0
+  ],
+  "space_mid": 225.0
+ },
+ {
+  "id": "muscle_proteolysis_urinary_3_methylhisti",
+  "group": "Muscle Proteolysis",
+  "name": "Urinary 3-Methylhistidine, 3-MH",
+  "unit": "µmol/g Cr",
+  "cluster": 2,
+  "cluster_name": "Musculoskeletal System",
+  "apparatus": "MELFI -80°C Frozen Urine",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly (Frozen)",
+  "abs": false,
+  "text": {
+   "earth": "150 – 320 µmol/g Cr",
+   "space": "300 – 400 µmol/g Cr",
+   "concern": "401 – 550 µmol/g Cr",
+   "danger": "> 550 µmol/g Cr (catabolic wasting)"
+  },
+  "note_danger": "catabolic wasting",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      150.0,
+      320.0
+     ]
+    ],
+    "F": [
+     [
+      150.0,
+      320.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      300.0,
+      400.0
+     ]
+    ],
+    "F": [
+     [
+      300.0,
+      400.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      401.0,
+      550.0
+     ]
+    ],
+    "F": [
+     [
+      401.0,
+      550.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      550.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      550.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   50.0,
+   650.0
+  ],
+  "space_mid": 350.0
+ },
+ {
+  "id": "optical_coherence_tomography_retinal_ner",
+  "group": "Optical Coherence Tomography",
+  "name": "Retinal Nerve Fiber Layer, RNFL",
+  "unit": "µm",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Heidelberg Spectralis OCT2",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "90 – 105 µm",
+   "space": "105 – 120 µm (+5 to +15 µm)",
+   "concern": "121 – 140 µm (Frisén Gr 1–2)",
+   "danger": "> 140 µm (Frisén Gr ≥3 papilledema)"
+  },
+  "note_danger": "Frisén Gr ≥3 papilledema",
+  "note_concern": "Frisén Gr 1–2",
+  "note_space": "+5 to +15 µm",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      90.0,
+      105.0
+     ]
+    ],
+    "F": [
+     [
+      90.0,
+      105.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      105.0,
+      120.0
+     ]
+    ],
+    "F": [
+     [
+      105.0,
+      120.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      121.0,
+      140.0
+     ]
+    ],
+    "F": [
+     [
+      121.0,
+      140.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      140.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      140.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   76.0,
+   154.0
+  ],
+  "space_mid": 112.5
+ },
+ {
+  "id": "b_scan_ocular_ultrasound_optic_nerve_she",
+  "group": "B-Scan Ocular Ultrasound",
+  "name": "Optic Nerve Sheath Diameter, ONSD",
+  "unit": "mm",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Vivid q High-Freq Ocular Probe",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "4.5 – 5.2 mm",
+   "space": "5.3 – 5.9 mm",
+   "concern": "6.0 – 6.6 mm",
+   "danger": ">= 6.7 mm (severe SANS / ICP surge)"
+  },
+  "note_danger": "severe SANS / ICP surge",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      4.5,
+      5.2
+     ]
+    ],
+    "F": [
+     [
+      4.5,
+      5.2
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      5.3,
+      5.9
+     ]
+    ],
+    "F": [
+     [
+      5.3,
+      5.9
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      6.0,
+      6.6
+     ]
+    ],
+    "F": [
+     [
+      6.0,
+      6.6
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      6.7,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      6.7,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   3.83,
+   7.37
+  ],
+  "space_mid": 5.6
+ },
+ {
+  "id": "ocular_refractive_shift_cycloplegic_sphe",
+  "group": "Ocular Refractive Shift",
+  "name": "Cycloplegic Spherical Equivalent",
+  "unit": "Diopters",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Autorefractor / OCT Axial Length",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "0.00 D (Baseline)",
+   "space": "+0.25 D to +0.50 D",
+   "concern": "+0.75 D to +1.25 D",
+   "danger": ">= +1.50 D (severe globe flattening)"
+  },
+  "note_danger": "severe globe flattening",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.25,
+      0.5
+     ]
+    ],
+    "F": [
+     [
+      0.25,
+      0.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      0.75,
+      1.25
+     ]
+    ],
+    "F": [
+     [
+      0.75,
+      1.25
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   1.875
+  ],
+  "space_mid": 0.375
+ },
+ {
+  "id": "tonometry_intraocular_pressure_iop",
+  "group": "Tonometry",
+  "name": "Intraocular Pressure, IOP",
+  "unit": "mmHg",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Tono-Pen XL / iCare Tonometer",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Every 2–4 weeks",
+  "abs": false,
+  "text": {
+   "earth": "10 – 21 mmHg",
+   "space": "14 – 23 mmHg",
+   "concern": "24 – 28 mmHg (or < 9 mmHg)",
+   "danger": "> 28 mmHg (glaucoma damage risk)"
+  },
+  "note_danger": "glaucoma damage risk",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      10.0,
+      21.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      21.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      14.0,
+      23.0
+     ]
+    ],
+    "F": [
+     [
+      14.0,
+      23.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      24.0,
+      28.0
+     ],
+     [
+      -1000000000.0,
+      9.0
+     ]
+    ],
+    "F": [
+     [
+      24.0,
+      28.0
+     ],
+     [
+      -1000000000.0,
+      9.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      28.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      28.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "both",
+  "span": [
+   4.25,
+   32.75
+  ],
+  "space_mid": 18.5
+ },
+ {
+  "id": "neurocognitive_battery_psychomotor_vigil",
+  "group": "Neurocognitive Battery",
+  "name": "Psychomotor Vigilance Reaction Time, PVT",
+  "unit": "ms",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "ISS Laptop (NASA Cognition / WinSCAT)",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly & Pre-EVA",
+  "abs": false,
+  "text": {
+   "earth": "210 – 260 ms (<2 lapses)",
+   "space": "250 – 290 ms (2–4 lapses)",
+   "concern": "291 – 350 ms (5–8 lapses)",
+   "danger": "> 350 ms (>8 lapses; grounds EVA)"
+  },
+  "note_danger": ">8 lapses; grounds EVA",
+  "note_concern": "5–8 lapses",
+  "note_space": "2–4 lapses",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      210.0,
+      260.0
+     ]
+    ],
+    "F": [
+     [
+      210.0,
+      260.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      250.0,
+      290.0
+     ]
+    ],
+    "F": [
+     [
+      250.0,
+      290.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      291.0,
+      350.0
+     ]
+    ],
+    "F": [
+     [
+      291.0,
+      350.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      350.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      350.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   175.0,
+   385.0
+  ],
+  "space_mid": 270.0
+ },
+ {
+  "id": "non_invasive_icp_estimated_intracranial_",
+  "group": "Non-Invasive ICP",
+  "name": "Estimated Intracranial Pressure",
+  "unit": "mmHg",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "DPOAE / Tympanic Displacement",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Experimental / Sporadic",
+  "abs": false,
+  "text": {
+   "earth": "7 – 15 mmHg (supine) / 0 – 5 mmHg (upright)",
+   "space": "12 – 16 mmHg (continuous 24h)",
+   "concern": "17 – 21 mmHg",
+   "danger": ">= 22 mmHg (intracranial hypertension)"
+  },
+  "note_danger": "intracranial hypertension",
+  "note_concern": "",
+  "note_space": "continuous 24h",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      7.0,
+      15.0
+     ]
+    ],
+    "F": [
+     [
+      7.0,
+      15.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      12.0,
+      16.0
+     ]
+    ],
+    "F": [
+     [
+      12.0,
+      16.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      17.0,
+      21.0
+     ]
+    ],
+    "F": [
+     [
+      17.0,
+      21.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      22.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      22.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   3.25,
+   25.75
+  ],
+  "space_mid": 14.0
+ },
+ {
+  "id": "sleep_eeg_architecture_total_nightly_sle",
+  "group": "Sleep EEG Architecture",
+  "name": "Total Nightly Sleep Duration",
+  "unit": "hours",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Dreem EEG Headband / Actiwatch",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Daily (Actiwatch) / Episodic",
+  "abs": false,
+  "text": {
+   "earth": "7.0 – 8.5 hours",
+   "space": "6.0 – 6.8 hours",
+   "concern": "5.0 – 5.9 hours",
+   "danger": "< 5.0 hours (acute cognitive hazard)"
+  },
+  "note_danger": "acute cognitive hazard",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      7.0,
+      8.5
+     ]
+    ],
+    "F": [
+     [
+      7.0,
+      8.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      6.0,
+      6.8
+     ]
+    ],
+    "F": [
+     [
+      6.0,
+      6.8
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      5.0,
+      5.9
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      5.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      5.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   4.125,
+   9.375
+  ],
+  "space_mid": 6.4
+ },
+ {
+  "id": "sleep_eeg_architecture_slow_wave_delta_s",
+  "group": "Sleep EEG Architecture",
+  "name": "Slow-Wave Delta Sleep, SWS",
+  "unit": "% of Sleep",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Dreem Dry-Electrode EEG Headband",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "15% – 25% of sleep",
+   "space": "12% – 16% of sleep",
+   "concern": "8% – 11.9% of sleep",
+   "danger": "< 8% of sleep"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      15.0,
+      25.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      25.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      12.0,
+      16.0
+     ]
+    ],
+    "F": [
+     [
+      12.0,
+      16.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      8.0,
+      11.9
+     ]
+    ],
+    "F": [
+     [
+      8.0,
+      11.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      8.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      8.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   3.75,
+   29.25
+  ],
+  "space_mid": 14.0
+ },
+ {
+  "id": "vestibular_battery_vestibulo_ocular_refl",
+  "group": "Vestibular Battery",
+  "name": "Vestibulo-Ocular Reflex Gain, VOR",
+  "unit": "Ratio",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Infrared Video-Oculography Goggles",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Pre/Post & Sporadic",
+  "abs": false,
+  "text": {
+   "earth": "0.85 – 1.05",
+   "space": "0.78 – 0.90",
+   "concern": "0.65 – 0.77",
+   "danger": "< 0.65 (severe oscillopsia / vertigo)"
+  },
+  "note_danger": "severe oscillopsia / vertigo",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.85,
+      1.05
+     ]
+    ],
+    "F": [
+     [
+      0.85,
+      1.05
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.78,
+      0.9
+     ]
+    ],
+    "F": [
+     [
+      0.78,
+      0.9
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      0.65,
+      0.77
+     ]
+    ],
+    "F": [
+     [
+      0.65,
+      0.77
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      0.65
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      0.65
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0.545,
+   1.155
+  ],
+  "space_mid": 0.8400000000000001
+ },
+ {
+  "id": "neuro_injury_panel_plasma_neurofilament_",
+  "group": "Neuro-Injury Panel",
+  "name": "Plasma Neurofilament Light Chain, NfL",
+  "unit": "pg/mL",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Frozen Venous Plasma / Point-of-Care",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Pre/Post-Flight Only",
+  "abs": false,
+  "text": {
+   "earth": "4.0 – 10.0 pg/mL",
+   "space": "10.1 – 16.0 pg/mL",
+   "concern": "16.1 – 30.0 pg/mL",
+   "danger": "> 30.0 pg/mL (axonal radiation injury)"
+  },
+  "note_danger": "axonal radiation injury",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      4.0,
+      10.0
+     ]
+    ],
+    "F": [
+     [
+      4.0,
+      10.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10.1,
+      16.0
+     ]
+    ],
+    "F": [
+     [
+      10.1,
+      16.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      16.1,
+      30.0
+     ]
+    ],
+    "F": [
+     [
+      16.1,
+      30.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      30.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      30.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   36.5
+  ],
+  "space_mid": 13.05
+ },
+ {
+  "id": "neuro_injury_panel_glial_fibrillary_acid",
+  "group": "Neuro-Injury Panel",
+  "name": "Glial Fibrillary Acidic Protein, GFAP",
+  "unit": "pg/mL",
+  "cluster": 3,
+  "cluster_name": "Neurosensory & Psychoneurological System",
+  "apparatus": "Frozen Venous Plasma / Point-of-Care",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Pre/Post-Flight Only",
+  "abs": false,
+  "text": {
+   "earth": "30 – 80 pg/mL",
+   "space": "81 – 130 pg/mL",
+   "concern": "131 – 220 pg/mL",
+   "danger": "> 220 pg/mL (astrocyte/BBB damage)"
+  },
+  "note_danger": "astrocyte/BBB damage",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      30.0,
+      80.0
+     ]
+    ],
+    "F": [
+     [
+      30.0,
+      80.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      81.0,
+      130.0
+     ]
+    ],
+    "F": [
+     [
+      81.0,
+      130.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      131.0,
+      220.0
+     ]
+    ],
+    "F": [
+     [
+      131.0,
+      220.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      220.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      220.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   267.5
+  ],
+  "space_mid": 105.5
+ },
+ {
+  "id": "renal_stone_profile_24_hour_urine_output",
+  "group": "Renal Stone Profile",
+  "name": "24-Hour Urine Output Volume",
+  "unit": "Liters/day",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Volumetric Urine Collection / Strips",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Weekly / Monthly",
+  "abs": false,
+  "text": {
+   "earth": "2.0 – 3.0 L/day",
+   "space": "1.4 – 1.9 L/day",
+   "concern": "1.0 – 1.39 L/day",
+   "danger": "< 1.0 L/day (acute stone crystallization)"
+  },
+  "note_danger": "acute stone crystallization",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      2.0,
+      3.0
+     ]
+    ],
+    "F": [
+     [
+      2.0,
+      3.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.4,
+      1.9
+     ]
+    ],
+    "F": [
+     [
+      1.4,
+      1.9
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.0,
+      1.39
+     ]
+    ],
+    "F": [
+     [
+      1.0,
+      1.39
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      1.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      1.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0.5,
+   3.5
+  ],
+  "space_mid": 1.65
+ },
+ {
+  "id": "renal_stone_profile_24_hour_urinary_calc",
+  "group": "Renal Stone Profile",
+  "name": "24-Hour Urinary Calcium Excretion",
+  "unit": "mg/day",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "MELFI -80°C / rHEALTH Urine Assay",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "100 – 250 mg/day",
+   "space": "251 – 320 mg/day",
+   "concern": "321 – 400 mg/day",
+   "danger": "> 400 mg/day (severe hypercalciuria)"
+  },
+  "note_danger": "severe hypercalciuria",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      100.0,
+      250.0
+     ]
+    ],
+    "F": [
+     [
+      100.0,
+      250.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      251.0,
+      320.0
+     ]
+    ],
+    "F": [
+     [
+      251.0,
+      320.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      321.0,
+      400.0
+     ]
+    ],
+    "F": [
+     [
+      321.0,
+      400.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      400.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      400.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   25.0,
+   475.0
+  ],
+  "space_mid": 285.5
+ },
+ {
+  "id": "renal_stone_profile_24_hour_urinary_citr",
+  "group": "Renal Stone Profile",
+  "name": "24-Hour Urinary Citrate Inhibitor",
+  "unit": "mg/day",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "MELFI -80°C / rHEALTH Urine Assay",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "> 450 mg/day",
+   "space": "350 – 450 mg/day",
+   "concern": "250 – 349 mg/day",
+   "danger": "< 250 mg/day (hypocitraturia)"
+  },
+  "note_danger": "hypocitraturia",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      450.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      450.0,
+      1000000000.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      350.0,
+      450.0
+     ]
+    ],
+    "F": [
+     [
+      350.0,
+      450.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      250.0,
+      349.0
+     ]
+    ],
+    "F": [
+     [
+      250.0,
+      349.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      250.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      250.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   200.0,
+   500.0
+  ],
+  "space_mid": 400.0
+ },
+ {
+  "id": "renal_stone_profile_calcium_oxalate_supe",
+  "group": "Renal Stone Profile",
+  "name": "Calcium Oxalate Supersaturation Ratio",
+  "unit": "DG",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "24-Hour Urine Chemistry",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "< 1.5",
+   "space": "1.5 – 2.2",
+   "concern": "2.3 – 3.5",
+   "danger": "> 3.5 (spontaneous nephrolithiasis)"
+  },
+  "note_danger": "spontaneous nephrolithiasis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      -1000000000.0,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      1.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.5,
+      2.2
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      2.2
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      2.3,
+      3.5
+     ]
+    ],
+    "F": [
+     [
+      2.3,
+      3.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   1.0,
+   4.0
+  ],
+  "space_mid": 1.85
+ },
+ {
+  "id": "hepatic_panel_alanine_aspartate_aminotra",
+  "group": "Hepatic Panel",
+  "name": "Alanine & Aspartate Aminotransferases, ALT / AST",
+  "unit": "U/L",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Abaxis Piccolo Xpress",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "10 – 40 U/L",
+   "space": "25 – 55 U/L",
+   "concern": "56 – 120 U/L (2–3x ULN)",
+   "danger": "> 120 U/L (>3x ULN hepatotoxicity)"
+  },
+  "note_danger": ">3x ULN hepatotoxicity",
+  "note_concern": "2–3x ULN",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      10.0,
+      40.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      40.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      25.0,
+      55.0
+     ]
+    ],
+    "F": [
+     [
+      25.0,
+      55.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      56.0,
+      120.0
+     ]
+    ],
+    "F": [
+     [
+      56.0,
+      120.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      120.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      120.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   147.5
+  ],
+  "space_mid": 40.0
+ },
+ {
+  "id": "lipid_profile_fasting_serum_triglyceride",
+  "group": "Lipid Profile",
+  "name": "Fasting Serum Triglycerides",
+  "unit": "mg/dL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Abaxis Piccolo Xpress",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "50 – 149 mg/dL",
+   "space": "140 – 190 mg/dL",
+   "concern": "191 – 300 mg/dL",
+   "danger": "> 300 mg/dL (steatosis / pancreatitis)"
+  },
+  "note_danger": "steatosis / pancreatitis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      50.0,
+      149.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      149.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      140.0,
+      190.0
+     ]
+    ],
+    "F": [
+     [
+      140.0,
+      190.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      191.0,
+      300.0
+     ]
+    ],
+    "F": [
+     [
+      191.0,
+      300.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      300.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      300.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   362.5
+  ],
+  "space_mid": 165.0
+ },
+ {
+  "id": "glycemic_panel_fasting_blood_glucose",
+  "group": "Glycemic Panel",
+  "name": "Fasting Blood Glucose",
+  "unit": "mg/dL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Abbott i-STAT",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "70 – 99 mg/dL",
+   "space": "88 – 108 mg/dL",
+   "concern": "109 – 125 mg/dL (pre-diabetic)",
+   "danger": ">= 126 mg/dL (overt space diabetes)"
+  },
+  "note_danger": "overt space diabetes",
+  "note_concern": "pre-diabetic",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      70.0,
+      99.0
+     ]
+    ],
+    "F": [
+     [
+      70.0,
+      99.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      88.0,
+      108.0
+     ]
+    ],
+    "F": [
+     [
+      88.0,
+      108.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      109.0,
+      125.0
+     ]
+    ],
+    "F": [
+     [
+      109.0,
+      125.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      126.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      126.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   56.0,
+   140.0
+  ],
+  "space_mid": 98.0
+ },
+ {
+  "id": "insulin_resistance_homeostatic_model_ass",
+  "group": "Insulin Resistance",
+  "name": "Homeostatic Model Assessment, HOMA-IR",
+  "unit": "Index",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "rHEALTH / Frozen Plasma",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "1–2x per 6-month mission",
+  "abs": false,
+  "text": {
+   "earth": "0.5 – 1.7",
+   "space": "1.8 – 2.6",
+   "concern": "2.7 – 4.0",
+   "danger": "> 4.0 (severe insulin resistance)"
+  },
+  "note_danger": "severe insulin resistance",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.5,
+      1.7
+     ]
+    ],
+    "F": [
+     [
+      0.5,
+      1.7
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.8,
+      2.6
+     ]
+    ],
+    "F": [
+     [
+      1.8,
+      2.6
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      2.7,
+      4.0
+     ]
+    ],
+    "F": [
+     [
+      2.7,
+      4.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      4.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      4.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   4.875
+  ],
+  "space_mid": 2.2
+ },
+ {
+  "id": "renal_filtration_serum_creatinine",
+  "group": "Renal Filtration",
+  "name": "Serum Creatinine",
+  "unit": "mg/dL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Abbott i-STAT Creatinine Cartridge",
+  "avail": "onboard",
+  "avail_text": "Onboard (Installed)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "0.70 – 1.20 mg/dL",
+   "space": "0.60 – 1.10 mg/dL (muscle loss)",
+   "concern": "1.11 – 1.50 mg/dL",
+   "danger": "> 1.50 mg/dL (acute renal failure)"
+  },
+  "note_danger": "acute renal failure",
+  "note_concern": "",
+  "note_space": "muscle loss",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.7,
+      1.2
+     ]
+    ],
+    "F": [
+     [
+      0.7,
+      1.2
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.6,
+      1.1
+     ]
+    ],
+    "F": [
+     [
+      0.6,
+      1.1
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.11,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      1.11,
+      1.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.375,
+   1.725
+  ],
+  "space_mid": 0.8500000000000001
+ },
+ {
+  "id": "renal_filtration_serum_cystatin_c",
+  "group": "Renal Filtration",
+  "name": "Serum Cystatin C",
+  "unit": "mg/L",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "rHEALTH Microfluidics",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "0.60 – 1.00 mg/L",
+   "space": "0.70 – 1.10 mg/L",
+   "concern": "1.11 – 1.50 mg/L (eGFR 60–75)",
+   "danger": "> 1.50 mg/L (eGFR < 60 mL/min)"
+  },
+  "note_danger": "eGFR < 60 mL/min",
+  "note_concern": "eGFR 60–75",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.6,
+      1.0
+     ]
+    ],
+    "F": [
+     [
+      0.6,
+      1.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.7,
+      1.1
+     ]
+    ],
+    "F": [
+     [
+      0.7,
+      1.1
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.11,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      1.11,
+      1.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.375,
+   1.725
+  ],
+  "space_mid": 0.9
+ },
+ {
+  "id": "gut_microbiome_firmicutes_to_bacteroidet",
+  "group": "Gut Microbiome",
+  "name": "Firmicutes-to-Bacteroidetes Ratio",
+  "unit": "F/B Ratio",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Oxford Nanopore MinION Sequencer",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "1.0 – 2.5",
+   "space": "2.6 – 4.0",
+   "concern": "4.1 – 6.5",
+   "danger": "> 6.5 (severe dysbiosis)"
+  },
+  "note_danger": "severe dysbiosis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.0,
+      2.5
+     ]
+    ],
+    "F": [
+     [
+      1.0,
+      2.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      2.6,
+      4.0
+     ]
+    ],
+    "F": [
+     [
+      2.6,
+      4.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      4.1,
+      6.5
+     ]
+    ],
+    "F": [
+     [
+      4.1,
+      6.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      6.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      6.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   7.875
+  ],
+  "space_mid": 3.3
+ },
+ {
+  "id": "gut_microbiome_anti_inflammatory_f_praus",
+  "group": "Gut Microbiome",
+  "name": "Anti-Inflammatory F. prausnitzii Abundance",
+  "unit": "%",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Oxford Nanopore MinION Sequencer",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Research",
+  "abs": false,
+  "text": {
+   "earth": "5.0% – 12.0%",
+   "space": "3.0% – 4.9%",
+   "concern": "1.0% – 2.9%",
+   "danger": "< 1.0% (mucosal barrier collapse)"
+  },
+  "note_danger": "mucosal barrier collapse",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      5.0,
+      12.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      12.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      3.0,
+      4.9
+     ]
+    ],
+    "F": [
+     [
+      3.0,
+      4.9
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.0,
+      2.9
+     ]
+    ],
+    "F": [
+     [
+      1.0,
+      2.9
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      1.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      1.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0,
+   14.75
+  ],
+  "space_mid": 3.95
+ },
+ {
+  "id": "therapeutic_drug_monitoring_active_drug_",
+  "group": "Therapeutic Drug Monitoring",
+  "name": "Active Drug Plasma Concentration",
+  "unit": "% Target",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Microfluidic TDM Reader (Needed)",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Not Performed Live",
+  "abs": false,
+  "text": {
+   "earth": "90% – 110% of target window",
+   "space": "80% – 120% of target window",
+   "concern": "50%–79% or 121%–180%",
+   "danger": "< 50% (failure) or > 200% (toxicity)"
+  },
+  "note_danger": "toxicity",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      90.0,
+      110.0
+     ]
+    ],
+    "F": [
+     [
+      90.0,
+      110.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      80.0,
+      120.0
+     ]
+    ],
+    "F": [
+     [
+      80.0,
+      120.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      50.0,
+      79.0
+     ],
+     [
+      121.0,
+      180.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      79.0
+     ],
+     [
+      121.0,
+      180.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      50.0
+     ],
+     [
+      200.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      50.0
+     ],
+     [
+      200.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "both",
+  "span": [
+   12.5,
+   237.5
+  ],
+  "space_mid": 100.0
+ },
+ {
+  "id": "gi_motility_sibo_exhaled_breath_hydrogen",
+  "group": "GI Motility & SIBO",
+  "name": "Exhaled Breath Hydrogen Rise, ΔH2",
+  "unit": "ppm",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Portable Breath H2/CH4 Sensor",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Sporadic / Research",
+  "abs": false,
+  "text": {
+   "earth": "< 10 ppm rise",
+   "space": "10 – 19 ppm rise",
+   "concern": "20 – 39 ppm rise (SIBO)",
+   "danger": ">= 40 ppm rise (severe stasis / ileus)"
+  },
+  "note_danger": "severe stasis / ileus",
+  "note_concern": "SIBO",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      10.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10.0,
+      19.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      19.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      20.0,
+      39.0
+     ]
+    ],
+    "F": [
+     [
+      20.0,
+      39.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      40.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      40.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   2.5,
+   47.5
+  ],
+  "space_mid": 14.5
+ },
+ {
+  "id": "gut_permeability_fecal_calprotectin",
+  "group": "Gut Permeability",
+  "name": "Fecal Calprotectin",
+  "unit": "µg/g",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "Point-of-Care Lateral Flow",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Sporadic / Research",
+  "abs": false,
+  "text": {
+   "earth": "< 50 µg/g",
+   "space": "30 – 65 µg/g",
+   "concern": "66 – 199 µg/g",
+   "danger": ">= 200 µg/g (severe gut inflammation)"
+  },
+  "note_danger": "severe gut inflammation",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      -1000000000.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      50.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      30.0,
+      65.0
+     ]
+    ],
+    "F": [
+     [
+      30.0,
+      65.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      66.0,
+      199.0
+     ]
+    ],
+    "F": [
+     [
+      66.0,
+      199.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      200.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      200.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   242.5
+  ],
+  "space_mid": 47.5
+ },
+ {
+  "id": "iron_antioxidant_status_serum_ferritin",
+  "group": "Iron & Antioxidant Status",
+  "name": "Serum Ferritin",
+  "unit": "ng/mL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "rHEALTH / MELFI -80°C Serum",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly (Frozen)",
+  "abs": false,
+  "text": {
+   "earth": "30 – 250 ng/mL (M) / 20 – 150 ng/mL (F)",
+   "space": "200 – 380 ng/mL (RBC iron release)",
+   "concern": "381 – 600 ng/mL",
+   "danger": "> 600 ng/mL (hepatic iron overload)"
+  },
+  "note_danger": "hepatic iron overload",
+  "note_concern": "",
+  "note_space": "RBC iron release",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      30.0,
+      250.0
+     ]
+    ],
+    "F": [
+     [
+      20.0,
+      150.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      200.0,
+      380.0
+     ]
+    ],
+    "F": [
+     [
+      200.0,
+      380.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      381.0,
+      600.0
+     ]
+    ],
+    "F": [
+     [
+      381.0,
+      600.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      600.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      600.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   745.0
+  ],
+  "space_mid": 290.0
+ },
+ {
+  "id": "micronutrient_status_serum_25_oh_vitamin",
+  "group": "Micronutrient Status",
+  "name": "Serum 25(OH) Vitamin D",
+  "unit": "ng/mL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "rHEALTH / MELFI -80°C Serum",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly (Frozen)",
+  "abs": false,
+  "text": {
+   "earth": "30 – 60 ng/mL",
+   "space": "28 – 50 ng/mL (on 800–2000 IU/d)",
+   "concern": "15 – 27 ng/mL",
+   "danger": "< 15 ng/mL (deficiency bone loss)"
+  },
+  "note_danger": "deficiency bone loss",
+  "note_concern": "",
+  "note_space": "on 800–2000 IU/d",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      30.0,
+      60.0
+     ]
+    ],
+    "F": [
+     [
+      30.0,
+      60.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      28.0,
+      50.0
+     ]
+    ],
+    "F": [
+     [
+      28.0,
+      50.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      15.0,
+      27.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      27.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      15.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      15.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   3.75,
+   71.25
+  ],
+  "space_mid": 39.0
+ },
+ {
+  "id": "micronutrient_status_red_blood_cell_fola",
+  "group": "Micronutrient Status",
+  "name": "Red Blood Cell Folate",
+  "unit": "ng/mL",
+  "cluster": 4,
+  "cluster_name": "Metabolic, Gastrointestinal & Renal-Excretory System",
+  "apparatus": "MELFI -80°C / Microfluidics",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly (Frozen)",
+  "abs": false,
+  "text": {
+   "earth": "400 – 800 ng/mL",
+   "space": "320 – 450 ng/mL",
+   "concern": "200 – 319 ng/mL",
+   "danger": "< 200 ng/mL (radiation folate depletion)"
+  },
+  "note_danger": "radiation folate depletion",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      400.0,
+      800.0
+     ]
+    ],
+    "F": [
+     [
+      400.0,
+      800.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      320.0,
+      450.0
+     ]
+    ],
+    "F": [
+     [
+      320.0,
+      450.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      200.0,
+      319.0
+     ]
+    ],
+    "F": [
+     [
+      200.0,
+      319.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      200.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      200.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   50.0,
+   950.0
+  ],
+  "space_mid": 385.0
+ },
+ {
+  "id": "stress_hormone_assay_morning_salivary_fr",
+  "group": "Stress Hormone Assay",
+  "name": "Morning Salivary Free Cortisol",
+  "unit": "ng/mL",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "Salivette Swab + Lateral-Flow Reader",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Weekly or Bi-weekly",
+  "abs": false,
+  "text": {
+   "earth": "3.0 – 10.0 ng/mL",
+   "space": "8.0 – 14.0 ng/mL",
+   "concern": "14.1 – 22.0 ng/mL",
+   "danger": "> 22.0 ng/mL (or < 1.5 adrenal crash)"
+  },
+  "note_danger": "",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      3.0,
+      10.0
+     ]
+    ],
+    "F": [
+     [
+      3.0,
+      10.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      8.0,
+      14.0
+     ]
+    ],
+    "F": [
+     [
+      8.0,
+      14.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      14.1,
+      22.0
+     ]
+    ],
+    "F": [
+     [
+      14.1,
+      22.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      22.0,
+      1000000000.0
+     ],
+     [
+      -1000000000.0,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      22.0,
+      1000000000.0
+     ],
+     [
+      -1000000000.0,
+      1.5
+     ]
+    ]
+   }
+  },
+  "bad_dir": "both",
+  "span": [
+   0,
+   27.125
+  ],
+  "space_mid": 11.0
+ },
+ {
+  "id": "stress_hormone_assay_late_evening_saliva",
+  "group": "Stress Hormone Assay",
+  "name": "Late-Evening Salivary Cortisol",
+  "unit": "ng/mL",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "Salivette Swab + Lateral-Flow Reader",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Weekly or Bi-weekly",
+  "abs": false,
+  "text": {
+   "earth": "0.3 – 1.5 ng/mL",
+   "space": "1.5 – 2.8 ng/mL",
+   "concern": "2.9 – 5.0 ng/mL (flat rhythm)",
+   "danger": "> 5.0 ng/mL (chronic HPA exhaustion)"
+  },
+  "note_danger": "chronic HPA exhaustion",
+  "note_concern": "flat rhythm",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.3,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      0.3,
+      1.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.5,
+      2.8
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      2.8
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      2.9,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      2.9,
+      5.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      5.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      5.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   6.175
+  ],
+  "space_mid": 2.15
+ },
+ {
+  "id": "latent_herpesvirus_qpcr_salivary_ebv_vzv",
+  "group": "Latent Herpesvirus qPCR",
+  "name": "Salivary EBV / VZV / CMV Viral Load",
+  "unit": "copies/mL",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "miniPCR / WetLab-2 Thermocycler",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Episodic / Symptom-Driven",
+  "abs": false,
+  "text": {
+   "earth": "0 (< 10 copies/mL)",
+   "space": "10 – 500 copies/mL (asymptomatic)",
+   "concern": "501 – 10,000 copies/mL",
+   "danger": "> 10,000 copies/mL (clinical shingles/organitis)"
+  },
+  "note_danger": "clinical shingles/organitis",
+  "note_concern": "",
+  "note_space": "asymptomatic",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      10.0,
+      500.0
+     ]
+    ],
+    "F": [
+     [
+      10.0,
+      500.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      501.0,
+      10000.0
+     ]
+    ],
+    "F": [
+     [
+      501.0,
+      10000.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      10000.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      10000.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   12500.0
+  ],
+  "space_mid": 255.0
+ },
+ {
+  "id": "flow_cytometry_cd4_cd8_t_cell_ratio",
+  "group": "Flow Cytometry",
+  "name": "CD4+ / CD8+ T-Cell Ratio",
+  "unit": "",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "rHEALTH Laser Cytometer / Soyuz",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "1.5 – 2.5",
+   "space": "1.2 – 1.6",
+   "concern": "0.9 – 1.19",
+   "danger": "< 0.9 (severe cellular immune inversion)"
+  },
+  "note_danger": "severe cellular immune inversion",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.5,
+      2.5
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      2.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      1.2,
+      1.6
+     ]
+    ],
+    "F": [
+     [
+      1.2,
+      1.6
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      0.9,
+      1.19
+     ]
+    ],
+    "F": [
+     [
+      0.9,
+      1.19
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      0.9
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      0.9
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   0.5,
+   2.9
+  ],
+  "space_mid": 1.4
+ },
+ {
+  "id": "flow_cytometry_neutrophil_to_lymphocyte_",
+  "group": "Flow Cytometry",
+  "name": "Neutrophil-to-Lymphocyte Ratio, NLR",
+  "unit": "",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "rHEALTH Laser Cytometer",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "1.5 – 3.0",
+   "space": "2.8 – 4.0",
+   "concern": "4.1 – 6.0",
+   "danger": "> 6.0 (systemic immune dysregulation)"
+  },
+  "note_danger": "systemic immune dysregulation",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.5,
+      3.0
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      3.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      2.8,
+      4.0
+     ]
+    ],
+    "F": [
+     [
+      2.8,
+      4.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      4.1,
+      6.0
+     ]
+    ],
+    "F": [
+     [
+      4.1,
+      6.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      6.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      6.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0.375,
+   7.125
+  ],
+  "space_mid": 3.4
+ },
+ {
+  "id": "multiplex_cytokine_profile_plasma_interl",
+  "group": "Multiplex Cytokine Profile",
+  "name": "Plasma Interleukin-6, IL-6",
+  "unit": "pg/mL",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "rHEALTH Microfluidic Bead Array",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "Monthly",
+  "abs": false,
+  "text": {
+   "earth": "0.5 – 3.0 pg/mL",
+   "space": "3.1 – 6.5 pg/mL",
+   "concern": "6.6 – 15.0 pg/mL",
+   "danger": "> 15.0 pg/mL (cytokine storm / rash)"
+  },
+  "note_danger": "cytokine storm / rash",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.5,
+      3.0
+     ]
+    ],
+    "F": [
+     [
+      0.5,
+      3.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      3.1,
+      6.5
+     ]
+    ],
+    "F": [
+     [
+      3.1,
+      6.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      6.6,
+      15.0
+     ]
+    ],
+    "F": [
+     [
+      6.6,
+      15.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      15.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      15.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   18.625
+  ],
+  "space_mid": 4.8
+ },
+ {
+  "id": "t_cell_mitogen_challenge_cd69_cd25_activ",
+  "group": "T-Cell Mitogen Challenge",
+  "name": "CD69+/CD25+ Activated T-Cells",
+  "unit": "%",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "Ex Vivo Mitogen Microfluidic Chip",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Pre/Post & Rare In-Flight",
+  "abs": false,
+  "text": {
+   "earth": "75% – 95% activation",
+   "space": "50% – 74% activation",
+   "concern": "25% – 49% activation",
+   "danger": "< 25% activation (T-cell anergy/paralysis)"
+  },
+  "note_danger": "T-cell anergy/paralysis",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      75.0,
+      95.0
+     ]
+    ],
+    "F": [
+     [
+      75.0,
+      95.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      50.0,
+      74.0
+     ]
+    ],
+    "F": [
+     [
+      50.0,
+      74.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      25.0,
+      49.0
+     ]
+    ],
+    "F": [
+     [
+      25.0,
+      49.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      25.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      25.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   7.5,
+   112.5
+  ],
+  "space_mid": 62.0
+ },
+ {
+  "id": "circadian_phase_dim_light_melatonin_onse",
+  "group": "Circadian Phase",
+  "name": "Dim-Light Melatonin Onset Shift, ΔDLMO",
+  "unit": "hours",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "Salivette Melatonin Immunoassay",
+  "avail": "partial",
+  "avail_text": "Partially Overlooked (Frozen/Limited)",
+  "frequency": "Monthly & Pre-Docking/EVA",
+  "abs": true,
+  "text": {
+   "earth": "± 0.0 – 0.5 hours from target",
+   "space": "± 0.6 – 1.5 hours shift",
+   "concern": "± 1.6 – 3.5 hours misalignment",
+   "danger": "> 3.5 hours (free-running desynchrony)"
+  },
+  "note_danger": "free-running desynchrony",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.0,
+      0.5
+     ]
+    ],
+    "F": [
+     [
+      0.0,
+      0.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.6,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      0.6,
+      1.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.6,
+      3.5
+     ]
+    ],
+    "F": [
+     [
+      1.6,
+      3.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   4.375
+  ],
+  "space_mid": 1.05
+ },
+ {
+  "id": "endocrine_panel_thyroid_stimulating_horm",
+  "group": "Endocrine Panel",
+  "name": "Thyroid-Stimulating Hormone, TSH",
+  "unit": "mIU/L",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "rHEALTH / Frozen Venous Serum",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "1–2x mid-flight",
+  "abs": false,
+  "text": {
+   "earth": "0.5 – 4.0 mIU/L",
+   "space": "2.5 – 4.8 mIU/L",
+   "concern": "4.9 – 8.0 mIU/L",
+   "danger": "> 8.0 mIU/L (hypothyroidism)"
+  },
+  "note_danger": "hypothyroidism",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.5,
+      4.0
+     ]
+    ],
+    "F": [
+     [
+      0.5,
+      4.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      2.5,
+      4.8
+     ]
+    ],
+    "F": [
+     [
+      2.5,
+      4.8
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      4.9,
+      8.0
+     ]
+    ],
+    "F": [
+     [
+      4.9,
+      8.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      8.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      8.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   9.875
+  ],
+  "space_mid": 3.65
+ },
+ {
+  "id": "endocrine_panel_morning_total_testostero",
+  "group": "Endocrine Panel",
+  "name": "Morning Total Testosterone",
+  "unit": "% of Baseline",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "rHEALTH / Frozen Venous Serum",
+  "avail": "missing",
+  "avail_text": "Overlooked (Not Live Onboard)",
+  "frequency": "1–2x mid-flight",
+  "abs": false,
+  "text": {
+   "earth": "95% – 105% (300–900 ng/dL M)",
+   "space": "75% – 90% (-10% to -25%)",
+   "concern": "55% – 74% (-26% to -45%)",
+   "danger": "< 55% (catabolic hypogonadism)"
+  },
+  "note_danger": "catabolic hypogonadism",
+  "note_concern": "-26% to -45%",
+  "note_space": "-10% to -25%",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      95.0,
+      105.0
+     ]
+    ],
+    "F": [
+     [
+      95.0,
+      105.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      75.0,
+      90.0
+     ]
+    ],
+    "F": [
+     [
+      75.0,
+      90.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      55.0,
+      74.0
+     ]
+    ],
+    "F": [
+     [
+      55.0,
+      74.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      -1000000000.0,
+      55.0
+     ]
+    ],
+    "F": [
+     [
+      -1000000000.0,
+      55.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "low",
+  "span": [
+   42.5,
+   117.5
+  ],
+  "space_mid": 82.5
+ },
+ {
+  "id": "radiation_biodosimetry_lymphocyte_h2ax_d",
+  "group": "Radiation Biodosimetry",
+  "name": "Lymphocyte γ-H2AX DNA Break Foci",
+  "unit": "foci/cell",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "Fluorescence Cytometer / Microscopy",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Pre/Post (Needed Live)",
+  "abs": false,
+  "text": {
+   "earth": "0.05 – 0.50 foci/cell",
+   "space": "0.51 – 1.50 foci/cell (LEO GCR)",
+   "concern": "1.51 – 3.50 foci/cell",
+   "danger": "> 3.50 foci/cell (acute SPE radiation hit)"
+  },
+  "note_danger": "acute SPE radiation hit",
+  "note_concern": "",
+  "note_space": "LEO GCR",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      0.05,
+      0.5
+     ]
+    ],
+    "F": [
+     [
+      0.05,
+      0.5
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      0.51,
+      1.5
+     ]
+    ],
+    "F": [
+     [
+      0.51,
+      1.5
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      1.51,
+      3.5
+     ]
+    ],
+    "F": [
+     [
+      1.51,
+      3.5
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      3.5,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   4.3625
+  ],
+  "space_mid": 1.005
+ },
+ {
+  "id": "oxidative_dna_damage_urinary_8_ohdg",
+  "group": "Oxidative DNA Damage",
+  "name": "Urinary 8-OHdG",
+  "unit": "ng/mg Creatinine",
+  "cluster": 5,
+  "cluster_name": "Immuno-Endocrine & Cellular / Dna System",
+  "apparatus": "MELFI -80°C / Lateral Flow Reader",
+  "avail": "missing",
+  "avail_text": "Critically Overlooked",
+  "frequency": "Monthly (Frozen)",
+  "abs": false,
+  "text": {
+   "earth": "1.5 – 5.0 ng/mg Cr",
+   "space": "5.1 – 9.0 ng/mg Cr",
+   "concern": "9.1 – 16.0 ng/mg Cr",
+   "danger": "> 16.0 ng/mg Cr (severe DNA oxidation)"
+  },
+  "note_danger": "severe DNA oxidation",
+  "note_concern": "",
+  "note_space": "",
+  "tiers": {
+   "earth": {
+    "M": [
+     [
+      1.5,
+      5.0
+     ]
+    ],
+    "F": [
+     [
+      1.5,
+      5.0
+     ]
+    ]
+   },
+   "space": {
+    "M": [
+     [
+      5.1,
+      9.0
+     ]
+    ],
+    "F": [
+     [
+      5.1,
+      9.0
+     ]
+    ]
+   },
+   "concern": {
+    "M": [
+     [
+      9.1,
+      16.0
+     ]
+    ],
+    "F": [
+     [
+      9.1,
+      16.0
+     ]
+    ]
+   },
+   "danger": {
+    "M": [
+     [
+      16.0,
+      1000000000.0
+     ]
+    ],
+    "F": [
+     [
+      16.0,
+      1000000000.0
+     ]
+    ]
+   }
+  },
+  "bad_dir": "high",
+  "span": [
+   0,
+   19.625
+  ],
+  "space_mid": 7.05
+ }
+]

@@ -1,0 +1,8 @@
+build/
+*.db
+*.db-shm
+*.db-wal
+report_*.txt
+profiles/.last
+*.tmp
+build-*/
